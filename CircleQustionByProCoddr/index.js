@@ -1,3 +1,21 @@
+/**
+ * JavaScript Practice Question: 
+ *
+ * Question Name: Tell whether two circles are intersection or not.
+ * 
+ * Description: Whenver user clicks on screen it creates a circle with random radius within range of
+ * [50px-200px], it will have only border, when it clicks second time then again new circle will be created
+ * with  random radius range,Also when the user Clicks third time the new circle will be created and the 
+ * previous two will vanished or deleted (Means only two circles exists at single time) and we have to check 
+ * that created two circles are intersecting or not.
+ * 
+ * Instructions:
+ * - Return true or false in console or some aleart when two circles are intersecting and you can also give false
+ * when not intersecting.
+ * - Example usage: IsIntersecting() should return true(When intersecting.).
+ */
+
+
 let circleCoordinates = [];
 
 const IsCircleIntersecting = () => {
